@@ -1,0 +1,31 @@
+#login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	min-height: 480px;
+	position: relative;
+	flex-direction: column;
+	background: #efefef;
+}
+
+.login-form {
+	width: 320px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: #ddd solid 1px;
+	box-shadow: 0 2px 5px #ddd;
+	padding: 30px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.login-form input {
+	margin-bottom: 20px;
+}
+
+.login-form button {
+	display: flex;
+	margin: auto;
+}

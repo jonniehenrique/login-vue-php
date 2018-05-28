@@ -8,7 +8,7 @@ var app = new Vue({
  
 	methods: {
 		keymonitor: function(event) {
-       		if(event.key == "Enter"){
+       		if (event.key == 'Enter') {
          		app.checkLogin();
         	}
        	},
@@ -16,9 +16,9 @@ var app = new Vue({
 		checkLogin: function(){
 			var loginForm = app.toFormData(app.login);
 
-			axios.post('login.php', loginForm)
+			axios.post('api/login.php', loginForm)
 				.then(function(response) {
- 
+
 					if (response.data.error) {
 						app.errorMessage = response.data.message;
 					} else {
@@ -26,7 +26,7 @@ var app = new Vue({
 						app.login = {username: '', password:''};
 						setTimeout(function() {
 							window.location.href = "painel?view=dashboard";
-						}, 2000);
+						}, 200);
 					}
 				});
 		},

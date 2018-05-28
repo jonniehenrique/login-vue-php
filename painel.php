@@ -1,5 +1,5 @@
 <?php
-	require 'app.php';
+	require 'app/app.php';
 
 	session_start();
 	
@@ -33,7 +33,7 @@
 			<nav class="nav-menu">
 				<a href="<?php echo urlPageView('dashboard'); ?>" class="nav-item"> Dashboard </a>
 				<a href="<?php echo urlPageView('usuarios'); ?>" class="nav-item"> Usuários </a>
-				<a href="<?php echo urlPage('logout'); ?>" class="nav-item">
+				<a href="<?php echo urlPage('api/logout'); ?>" class="nav-item">
 					Sair
 				</a>
 			</nav>

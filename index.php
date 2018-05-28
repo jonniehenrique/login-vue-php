@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Login VueJS PHP</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 	<div id="login">
@@ -23,6 +23,6 @@
 	</div>
 	<script src="js/vue.js"></script>
 	<script src="js/axios.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/login.js"></script>
 </body>
 </html>

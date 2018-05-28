@@ -1,2 +1,2 @@
-# login-vue-php
-Sistema de login com vuejs e php
+# Sistema de Login, Painel Administrativo com VueJS e PHP
+-- Login/Logout
